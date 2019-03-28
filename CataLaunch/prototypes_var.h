@@ -10,7 +10,7 @@ int SCREEN_WIDTH;
 //Velocity control of bird (upward)
 #define MaxVelocity 1
 
-int birdD_X=5, birdD_Y=13;	//Dimension of the bird
+int birdD_X = 13, birdD_Y = 5;	//Dimension of the bird
 int birdX = 0, birdY = 50; //Bird starting point
 int obstacles[100000]; //Max num of Obstacles
 float birdVelocity = 0; // velocity of the bird
