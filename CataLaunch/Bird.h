@@ -1,6 +1,6 @@
 void Bird(){
 	//Prints the bird
-	textcolor(TBLUEGREEN);
+	textcolor(TBLACK | BBLUEGREEN);
 	if (birdY < 0) birdY = 0;
 	gotoxy(birdX, birdY);
 	printf("  .`.   __ \n");

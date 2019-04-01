@@ -25,7 +25,7 @@ void destroyObstacle(int obstacle_number, int x){
 
 void Placeobstacle(int obstacle_number, int x){
 	//places obstacles continously using loop
-	textcolor(TGREEN);
+	textcolor(TGREEN | BBLUEGREEN);
 	int gapStart;
 	gapStart = obstacles[obstacle_number];
 	for (int i=0;i != SCREEN_HEIGHT;i++){

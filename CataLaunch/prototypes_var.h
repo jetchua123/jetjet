@@ -4,17 +4,17 @@ char PIPE = 219;
 int SCREEN_HEIGHT;
 int SCREEN_WIDTH;
 //Distance between pipes above and below
-#define PIPE_GAP 20
+#define PIPE_GAP 13
 //Distance of set of pipes from another
 #define PIPE_DISTANCE 240
 //Velocity control of bird (upward)
 #define MaxVelocity 1
 
-int birdD_X = 13, birdD_Y = 5;	//Dimension of the bird
+int birdD_X = 12, birdD_Y = 5;	//Dimension of the bird
 int birdX = 0, birdY = 50; //Bird starting point
 int obstacles[100000]; //Max num of Obstacles
 float birdVelocity = 0; // velocity of the bird
-int firstPipeX = 50; //Starting point of pipe
+int firstPipeX = 200; //Starting point of pipe
 
 
 
